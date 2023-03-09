@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>qr code component</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div id="app"></div>
-  <script type="module" src="./src/main.js"></script>
-</body>
-
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="./images/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./index.css" />
+        <title>QR Code Component</title>
+    </head>
+    <body>
+        <div class="bg-light-gray grid h-screen w-screen place-items-center">
+            <div class="font-outfit max-w-xs select-none rounded-xl bg-white p-4 shadow-xl transition-all hover:shadow-2xl sm:max-w-sm sm:p-6">
+                <img class="rounded-xl" src="./images/image-qr-code.png" alt="" />
+                <div class="space-y-4 p-4 sm:p-6">
+                    <h1 class="text-dark-blue text-center text-xl font-bold sm:text-2xl">Improve your front-end skills by building projects</h1>
+                    <p class="text-grayish-blue text-center">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
